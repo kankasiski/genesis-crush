@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CRUSH</title>
+    <link rel="icon" type="image/gif" href="Anime.png">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        function accionParaCuandoEllaDigaQueSi(){ 
+            alert('Ya sabia que dirías que Sí <3')
+        }
+
+        function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNO').style.position = "absolute";
+            document.getElementById('btnNO').style.left = newWidth + "px";   
+            document.getElementById('btnNO').style.top = newHeight + "px";   
+        
+
+         }
+    </script>
+    
+</head>
+<body>
+        <h3>Vamos a comer un día?</h3>    
+        <input type="button" onclick="alert('Enamorao yo')" id="btnSÍ" value="SÍ" position: center/>
+        
+        <input type="button" id="btnNO" onmousemove="mueveElBoton()" value="NO"  />
+
+        <img src="Anime.png" width="550px" 
+        >
+        
+    
+    
+    
+ 
+
+   
+    
+</body>
+</html>

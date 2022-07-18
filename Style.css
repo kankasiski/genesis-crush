@@ -1,0 +1,33 @@
+body{ 
+    background-image: url(1.png);
+    background-size: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+    
+
+h3{
+    font-size: 300%;
+    font-family: Garamond, serif ;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    
+}
+
+img{
+   position: relative;
+   left: 350px;
+}
+
+input{
+   position: relative;
+   left: 640px;
+   top: 70px;
+   width: 50px;
+   height: 30px;
+   border-bottom-style: solid;
+   border-bottom-color:rgba(66, 108, 143, 0.945)
+}
+
